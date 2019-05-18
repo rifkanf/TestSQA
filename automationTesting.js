@@ -9,10 +9,10 @@ describe("Go to Registration page ", function(){
     email.value = "test123@gmail.com"; // assign value to email field
 
     var password = element(by.css("#password")); // set variable password for action
-    password.value = "cermatitesting456"; // assign value to password field
+    password.value = "sqatesting456"; // assign value to password field
 
     var firstName = element(by.css("#first-name")); // set variable first name for action
-    firstName.value = "Cermati"; // assign value to first name field
+    firstName.value = "SQA"; // assign value to first name field
 
     var lastName = element(by.css("#last-name")); // set variable last name for action
     lastName.value = "Testing"; // assign value to last name field
